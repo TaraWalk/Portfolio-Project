@@ -119,4 +119,7 @@ nav li.active a {
     padding: 0;
     text-align: center;
   }
+  .nav a {
+    font-size: 12px;
+  }
 }
