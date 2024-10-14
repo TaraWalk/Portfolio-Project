@@ -26,20 +26,32 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tara Walker</title>
+    <meta
+      name="description"
+      content="Tara is a Front-End developer based in London, UK"
+    />
+    <title>Front-end developer -Tara Walker</title>
   </head>
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
         <a href="/">
-          <img src="images/logo.png" class="logo d-none d-md-block" />
-          <img src="images/logo small.png" class="logo d-block d-md-none" />
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="logo"
+          />
+          <img
+            src="images/logo small.png"
+            class="logo d-block d-md-none"
+            alt="logo"
+          />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Tara">About</a></li>
+          <li><a href="/work.html" title="Tara's Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Tara">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -48,7 +60,11 @@
       <p>Hi, I am</p>
       <h1>Tara Walker</h1>
       <h2 class="mb-5">Front-End Developer based in London</h2>
-      <div><a href="#" class="btn btn-branding">Contact Me</a></div>
+      <div>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact Me</a
+        >
+      </div>
     </div>
     <p class="text-center m-5">Featured Project</p>
     <div class="container">
@@ -60,7 +76,7 @@
           <div class="project-description">
             <h2 class="mb-5">Yoghurt Project</h2>
             <p class="mb-4 text-muted">Paragraph</p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
       </div>
@@ -69,7 +85,7 @@
           <div class="project-description">
             <h2 class="mb-5">Weather Project</h2>
             <p class="mb-4 text-muted">Paragraph</p>
-            <a href="#" class="btn btn-branding-outline">Learn More</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn More</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -85,7 +101,9 @@
         <div class="project-description">
           <h2 class="mb-5">Dictionary Project</h2>
           <p class="mb-4 text-muted">Paragraph</p>
-          <a href="#" class="btn btn-branding-outline mb-5">Learn More</a>
+          <a href="/work.html" class="btn btn-branding-outline mb-5"
+            >Learn More</a
+          >
         </div>
       </div>
       <footer>
@@ -95,22 +113,44 @@
             <p class="text-muted">Let's work together!</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact Me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Tara"
+              >Contact Me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:tara.a.walker@hotmail.com" class="email-link"
+          <a
+            href="mailto:tara.a.walker@hotmail.com"
+            class="email-link"
+            title="Email Tara"
             >Tara.A.Walker@hotmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/tara.a.walker" target="_blank"
+          <a
+            href="https://www.instagram.com/tara.a.walker"
+            title="Instagram Profile"
+            target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://github.com/TaraWalk" target="_blank"
+          <a
+            href="https://github.com/TaraWalk"
+            target="_blank"
+            title="Github Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Tara Walker and it is
+          <a
+            href="https://github.com/TaraWalk/Portfolio-Project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
