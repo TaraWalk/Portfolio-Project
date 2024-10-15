@@ -27,7 +27,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 90px 20px;
+  padding: 110px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -40,11 +40,11 @@ p {
   font-size: 24px;
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 80px 20px;
 }
 .content h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 55px;
+  line-height: 90px;
 }
 .content h2 {
   font-size: 18px;
@@ -81,7 +81,16 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-nav {
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--branding-color) !important;
+}
+.navbar-brand {
+  color: var(--branding-color);
+  font-weight: 900;
+}
+/*nav {
   padding: 20px 0;
 }
 nav ul {
@@ -101,7 +110,7 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
-}
+}*/
 footer {
   margin: 60px 0;
 }
@@ -154,6 +163,9 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .portrait {
+    text-align: center;
   }
   .project-description {
     padding: 0;
